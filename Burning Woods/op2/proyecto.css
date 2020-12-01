@@ -1,0 +1,179 @@
+
+.button {
+  padding: 15px 25px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #100;
+  background-color: #006cff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  width: 110px;
+  height: 50px;
+}
+.button:hover {background-color: #0027ff}
+
+.button:active {
+  background-color: #2700ff;
+  box-shadow: 0 5px #100;
+  transform: translateY(4px);
+} 
+
+.button1 {
+  padding: 15px 25px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #100;
+  background-color: #006cff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  width: 100px;
+  height: 50px;
+  position: relative;
+  left:460px;
+  top: 20px;
+}
+.button1:hover {background-color: #0027ff}
+
+.button1:active {
+  background-color: #2700ff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+} 
+
+.button2 {
+  padding: 15px 25px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #100;
+  background-color: #006cff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  width: 120px;
+  height: 50px;
+  position: relative;
+  left:630px;
+  top: 20px;
+}
+.button2:hover {background-color: #0027ff}
+
+.button2:active {
+  background-color: #2700ff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+} 
+
+
+.button3 {
+  padding: 15px 25px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #100;
+  background-color: #006cff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  width: 110px;
+  height: 50px;
+  position: relative;
+  left:370px;
+  top: 100px;
+}
+.button3:hover {background-color: #0027ff}
+
+.button3:active {
+  background-color: #2700ff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+} 
+
+.button4 {
+  padding: 15px 25px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #100;
+  background-color: #006cff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  width: 110px;
+  height: 50px;
+  position: relative;
+  left:260px;
+  top: 20px;
+}
+.button4:hover {background-color: #0027ff}
+
+.button4:active {
+  background-color: #2700ff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+} 
+
+.button5 {
+  padding: 15px 25px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #100;
+  background-color: #006cff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  width: 180px;
+  height: 50px;
+  position: relative;
+}
+.button5:hover {background-color: #0027ff}
+
+.button5:active {
+  background-color: #2700ff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+} 
+
+.button6 {
+  padding: 15px 25px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #100;
+  background-color: #006cff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  width: 180px;
+  height: 50px;
+  position: relative;
+}
+.button6:hover {background-color: #0027ff}
+
+.button6:active {
+  background-color: #2700ff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+} 
+
+.cesped{
+	 background-image:url("Img/cesped.jpg");
+}
+.arbol{
+	 background-image:url("Img/Tree.png");
+} 
+.fuego{
+	 background-image:url("Img/fuego2.png");
+} 
