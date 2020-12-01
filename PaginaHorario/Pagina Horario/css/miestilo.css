@@ -1,0 +1,168 @@
+table {
+	border-collapse: collapse;
+	text-align: center;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 8px;
+	
+}
+			
+thead {
+	font-weight: bold;
+	
+}
+
+body{width:99%;margin:auto;}
+
+.horario{
+	position: relative;
+	top: 10px;
+}
+
+.horario2{
+	position: relative;
+	top: 60px;
+}
+
+
+@font-face {
+	font-family: "Mansalva-Regular";
+	src: url("../font/Mansalva-Regular.ttf");
+}
+.titulo{
+  font-family: "Mansalva-Regular", cursive;
+  font-size: 150%;
+}
+
+@font-face {
+	font-family: "Grenze-Regular";
+	src: url("../font/Grenze-Regular.ttf");
+}
+
+
+@font-face {
+	font-family: "IndieFlower-Regular";
+	src: url("../font/IndieFlower-Regular.ttf");
+}
+
+
+
+
+
+.DWES{
+		font-family: "Grenze-Regular", cursive;
+		font-size: 110%;
+		background-color: hsl(180, 50%, 50%);
+}
+
+.DAW{
+		font-family: "Grenze-Regular", cursive;
+		font-size: 110%;
+		background-color: hsl(125, 100%, 73%);
+}	
+
+.DWEC{
+		font-family: "Grenze-Regular", cursive;
+		font-size: 110%;
+		background-color: hsl(0, 100%, 67%);
+}	
+
+.EIE{
+		font-family: "Grenze-Regular", cursive;
+		font-size: 110%;
+		background-color: hsl(56, 100%, 76%);
+}	
+
+.DIW{
+		font-family: "Grenze-Regular", cursive;
+		font-size: 110%;
+		background-color: hsl(290, 40%, 76%);
+}	
+
+.ING{
+		font-family: "Grenze-Regular", cursive;
+		font-size: 110%;
+		background-color: hsl(334, 100%, 77%);
+}	
+
+
+
+
+
+	
+.PROFEDWES{
+		font-family: "IndieFlower-Regular", cursive;
+		font-size: 120%;
+		background-color: hsl(180, 50%, 50%);
+}
+
+.PROFEDAW{
+		font-family: "IndieFlower-Regular", cursive;
+		font-size: 120%;
+		background-color: hsl(125, 100%, 73%);
+}	
+
+.PROFEDWEC{
+		font-family: "IndieFlower-Regular", cursive;
+		font-size: 120%;
+		background-color: hsl(0, 100%, 67%);
+}	
+
+.PROFEEIE{
+		font-family: "IndieFlower-Regular", cursive;
+		font-size: 120%;
+		background-color: hsl(56, 100%, 76%);
+}	
+
+.PROFEDIW{
+		font-family: "IndieFlower-Regular", cursive;
+		font-size: 120%;
+		background-color: hsl(290, 40%, 76%);
+}	
+
+.PROFEING{
+		font-family: "IndieFlower-Regular", cursive;
+		font-size: 120%;
+		background-color: hsl(334, 100%, 77%);
+}
+
+
+.DIASHORAS{
+	background-color: hsl(0, 1%, 89%);
+}
+
+
+
+
+
+.fotoboe{
+	position: relative;
+	top: -500px;
+	width: 20%;
+	border-radius:28px;
+	-webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+}
+
+.fotoeras{
+	position: relative;
+	top: -500px;
+	width: 20%;
+	border-radius:28px;
+	-webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+}
+
+.pdf{
+	position: relative;
+	top: 20px;
+	width: 4%;
+	border-radius:28px;
+	-webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+}			
