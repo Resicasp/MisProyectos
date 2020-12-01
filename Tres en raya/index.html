@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tres en raya</title>
+	<script type="text/javascript" src="index.js">
+	 
+	</script>
+	</head>
+
+	<body>
+	<center>
+		<h1>Tres en raya</h1>
+		<table border="0">
+			<tr>
+				<td style="border-style:solid;border-left-color:#000000;border-top-color:#000000;"><img src="fondo.PNG" id="c0" onclick="box(0)" /></td>  
+				<td style="border-style:solid;border-left-color:#000000;border-top-color:#000000;"><img src="fondo.PNG" id="c1" onclick="box(1)" /></td>  
+				<td style="border-style:solid;border-right-color:#000000;border-left-color:#000000;border-top-color:#000000;"><img src="fondo.PNG" id="c2" onclick="box(2)" /></td> 
+			</tr>
+			 <tr>
+				<td style="border-style:solid;border-left-color:#000000;border-top-color:#000000;"><img src="fondo.PNG" id="c3" onclick="box(3)" /></td>  
+				<td style="border-style:solid;border-left-color:#000000;border-top-color:#000000;"><img src="fondo.PNG" id="c4" onclick="box(4)" /></td>  
+				<td style="border-style:solid;border-right-color:#000000;border-left-color:#000000;border-top-color:#000000;"><img src="fondo.PNG" id="c5" onclick="box(5)" /></td>  
+			 </tr>
+			 <tr>
+				<td style="border-style:solid;border-left-color:#000000;border-top-color:#000000;border-bottom-color:#000000;"><img src="fondo.PNG" id="c6" onclick="box(6)" /></td>  
+				<td style="border-style:solid;border-left-color:#000000;border-top-color:#000000;border-bottom-color:#000000;"><img src="fondo.PNG" id="c7" onclick="box(7)" /></td>  
+				<td style="border-style:solid;border-right-color:#000000;border-left-color:#000000;border-top-color:#000000;border-bottom-color:#000000;"><img src="fondo.PNG" id="c8" onclick="box(8)" /></td>  
+			 </tr>
+			 
+			 <tr>
+				<th>Jugador 1</th>  
+				<td>&nbsp;</td>  
+				<th>Jugador 2</th>  
+			 </tr>
+			 <tr>
+				<td><img src="x.PNG" /></td>  
+				<td><img src="limpiar.png" id="reset" onclick="limpiar()" onmouseout="soltar()" /></td>  
+				<td><img src="bola.PNG" /></td>  
+			 </tr>
+			 <tr>
+				<td><div id="ptsjug1" style="font-weight:bold;text-align:center;">0</div></td>  
+				<td>&nbsp;</td>  
+				<td><div id="ptsjug2" style="font-weight:bold;text-align:center;">0</div></td>  
+			 </tr>
+		</table>
+		<br />
+		<input type="button" value="Reiniciar puntaje" onclick="reiniciar()" />
+	</center>
+	</body>
+</html>
