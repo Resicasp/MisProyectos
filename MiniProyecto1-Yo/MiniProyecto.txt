@@ -1,0 +1,28 @@
+MiniProyecto(Unipersonal)   Fecha de entrega: 14-10-2019
+-Página web personal con Html y Css.
+-Distribución en carpetas.
+
+
+------------------------------------------------------------Pagina inicial---------------------------------------------------------------
+-Página de inicio con un menú vertical que contendrá: Inicio, Mis Proyectos, Mis Estudios, Mis Aficiones, Contactar.
+-Debajo (a la izquierda) una foto personal mia (de mi cara o de algo que me identifique). A la derecha mis datos (nombre, nacimiento, etc). 
+¡Esto se hará con Maquetación(top,float)! Cuando la ventana se estreche, la foto aparecera arriba y los datos abajo.
+-En el pie de página redes sociales.
+
+
+--------------------------------------------------------Menú de Mis Proyectos-------------------------------------------------------------
+Al clickar el menú, nos saldrá un submenu desplegable con nuestros proyectos. Se puede poner la pagina(html directamente) o un enlace al 
+proyecto subido.
+
+
+------------------------------------------------------------Mis Estudios------------------------------------------------------------------
+Al clickar el menú, nos saldrá un submenu desplegable en el que pondremos, Primaria, Secundaria, Eso, etc. Dentro de cada una, pondremos 
+en dónde lo hemos cursado con una imagen del colegio/instituto y un enlace a la web de los colegios/institutos.
+
+
+-----------------------------------------------------------Mis Aficiones------------------------------------------------------------------
+Página en el que pondremos nuestras aficiones(fotos, textos). En un menú lateral ponemos enlaces externos a nuestra afición.
+
+
+-------------------------------------------------------------Contacto---------------------------------------------------------------------
+Formulario con los tipicos datos de contacto.
