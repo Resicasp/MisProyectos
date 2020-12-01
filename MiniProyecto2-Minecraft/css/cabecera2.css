@@ -1,0 +1,1087 @@
+@media (min-width: 0px){
+	#menu-bar {
+	  width: 95.975%;
+	  margin: 0px 0px 0px -1px;
+	  padding: 6px 6px 4px 6px;
+	  height: 100px;
+	  line-height: 100%;
+	  border-radius: 0px;
+	  -webkit-border-radius: 0px;
+	  -moz-border-radius: 0px;
+	  box-shadow: 2px 2px 3px #666666;
+	  -webkit-box-shadow: 2px 2px 3px #666666;
+	  -moz-box-shadow: 2px 2px 3px #666666;
+	  background: #8B8B8B;
+	  background: linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  background: -ms-linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  background: -webkit-gradient(linear, left top, left bottom, from(#D6D6D6), to(#7A7A7A));
+	  background: -moz-linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  border: solid 1px #6D6D6D;
+	  position:relative;
+	  z-index:999;
+	}
+	#menu-bar a {
+	  font-family:Minecraft;
+	  font-size: 14px;
+	  color: #E7E5E5;
+	  text-decoration: none;
+	  display: block;
+	  padding: 6px 20px 6px 20px;
+	  margin: 0;
+	  margin-bottom: 6px;
+	  border-radius: 10px;
+	  -webkit-border-radius: 10px;
+	  -moz-border-radius: 10px;
+	  text-shadow: 2px 2px 3px #000000;
+	}
+	#menu-bar li {
+	  margin: 10px 0px 6px 0px;
+	  padding: 0px 0px 0px 4px;
+	  float: left;
+	  position: relative;
+	  list-style: none;
+	}
+	
+
+	
+	input[type="search"]{
+    width: 35px; /*ancho por defecto*/
+	height: 30px;
+    background: #ededed url('../img/search-icon.png') no-repeat 9px center; /*icono lupa*/
+	background-size: 20px 20px;
+    padding: 9px 10px 9px 32px;
+    border-radius: 15em;
+    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+    transition: all .5s; /* transición de .5seg a todos los elementos*/
+    outline: none; /* ocultar el fucos automático de los input */
+	top: 8px;
+	position:relative;
+	float: right;
+	}
+	input[type="search"]:focus{
+		width: 100px; /*tamaño del boton buscar al hacer click*/
+		padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+		color: #000;
+		background-color: #FFF;
+	}
+		.fotofacebook{
+	width: 15.5%;
+	top: 4px;
+	position: relative;
+	}
+
+	.fototwitter{
+		width: 15%;
+		top: -2px;
+		position: relative;
+		margin: 0px 0px 0px 20px;
+	}
+	.fotoinsta{
+		width: 15%;
+		top: 4px;
+		position: relative;
+		margin: 0px 0px 0px 30px;
+	}
+}
+
+@media (min-width: 480px){
+	#menu-bar {
+	  width: 97.6%;
+	  margin: 0px 0px 0px -1px;
+	  padding: 6px 6px 4px 6px;
+	  height: 100px;
+	  line-height: 100%;
+	  border-radius: 0px;
+	  -webkit-border-radius: 0px;
+	  -moz-border-radius: 0px;
+	  box-shadow: 2px 2px 3px #666666;
+	  -webkit-box-shadow: 2px 2px 3px #666666;
+	  -moz-box-shadow: 2px 2px 3px #666666;
+	  background: #8B8B8B;
+	  background: linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  background: -ms-linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  background: -webkit-gradient(linear, left top, left bottom, from(#D6D6D6), to(#7A7A7A));
+	  background: -moz-linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  border: solid 1px #6D6D6D;
+	  position:relative;
+	  z-index:999;
+	}
+	#menu-bar li {
+	  margin: 10px 0px 6px 0px;
+	  padding: 0px 6px 0px 6px;
+	  float: left;
+	  position: relative;
+	  list-style: none;
+	}
+	#menu-bar a {
+	  font-family:Minecraft;
+	  font-size: 20px;
+	  color: #E7E5E5;
+	  text-decoration: none;
+	  display: block;
+	  padding: 6px 20px 6px 20px;
+	  margin: 0;
+	  margin-bottom: 6px;
+	  border-radius: 10px;
+	  -webkit-border-radius: 10px;
+	  -moz-border-radius: 10px;
+	  text-shadow: 2px 2px 3px #000000;
+	}
+	
+	input[type="search"]{
+    width: 45px; /*ancho por defecto*/
+    background: #ededed url('../img/search-icon.png') no-repeat 9px center; /*icono lupa*/
+	background-size: 20px 20px;
+    padding: 9px 10px 9px 32px;
+    border-radius: 15em;
+    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+    transition: all .5s; /* transición de .5seg a todos los elementos*/
+    outline: none; /* ocultar el fucos automático de los input */
+	top: 5px;
+	position:relative;
+	float: right;
+	}
+	input[type="search"]:focus{
+		width: 130px; /*tamaño del boton buscar al hacer click*/
+		padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+		color: #000;
+		background-color: #FFF;
+	}
+		.fotofacebook{
+	width: 9.5%;
+	top: 4px;
+	position: relative;
+	}
+
+	.fototwitter{
+		width: 9%;
+		top: -2px;
+		position: relative;
+		margin: 0px 0px 0px 20px;
+	}
+	.fotoinsta{
+		width: 9%;
+		top: 4px;
+		position: relative;
+		margin: 0px 0px 0px 30px;
+	}
+}
+
+@media (min-width: 700px){
+	#menu-bar {
+	  width: 98.975%;
+	  margin: 0px 0px 0px -1px;
+	  padding: 6px 6px 4px 6px;
+	  height: 100px;
+	  line-height: 100%;
+	  border-radius: 0px;
+	  -webkit-border-radius: 0px;
+	  -moz-border-radius: 0px;
+	  box-shadow: 2px 2px 3px #666666;
+	  -webkit-box-shadow: 2px 2px 3px #666666;
+	  -moz-box-shadow: 2px 2px 3px #666666;
+	  background: #8B8B8B;
+	  background: linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  background: -ms-linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  background: -webkit-gradient(linear, left top, left bottom, from(#D6D6D6), to(#7A7A7A));
+	  background: -moz-linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  border: solid 1px #6D6D6D;
+	  position:relative;
+	  z-index:999;
+	}
+	#menu-bar li {
+	  margin: 10px 0px 6px 0px;
+	  padding: 0px 6px 0px 6px;
+	  float: left;
+	  position: relative;
+	  list-style: none;
+	}
+	#menu-bar a {
+	  font-family:Minecraft;
+	  font-size: 20px;
+	  color: #E7E5E5;
+	  text-decoration: none;
+	  display: block;
+	  padding: 6px 20px 6px 20px;
+	  margin: 0;
+	  margin-bottom: 6px;
+	  border-radius: 10px;
+	  -webkit-border-radius: 10px;
+	  -moz-border-radius: 10px;
+	  text-shadow: 2px 2px 3px #000000;
+	}
+	
+	input[type="search"]{
+    width: 45px; /*ancho por defecto*/
+    background: #ededed url('../img/search-icon.png') no-repeat 9px center; /*icono lupa*/
+	background-size: 20px 20px;
+    padding: 9px 10px 9px 32px;
+    border-radius: 15em;
+    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+    transition: all .5s; /* transición de .5seg a todos los elementos*/
+    outline: none; /* ocultar el fucos automático de los input */
+	top: 5px;
+	position:relative;
+	float: right;
+	}
+	input[type="search"]:focus{
+		width: 130px; /*tamaño del boton buscar al hacer click*/
+		padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+		color: #000;
+		background-color: #FFF;
+	}
+		.fotofacebook{
+		width: 7.5%;
+		top: 2px;
+		position: relative;
+	}
+
+	.fototwitter{
+		width: 7%;
+		top: -4px;
+		position: relative;
+		margin: 0px 0px 0px 20px;
+	}
+	.fotoinsta{
+		width: 7%;
+		top: 2px;
+		position: relative;
+		margin: 0px 0px 0px 30px;
+	}
+}
+
+@media (min-width: 775px){
+	#menu-bar {
+	  width: 98.975%;
+	  margin: 0px 0px 0px -1px;
+	  padding: 6px 6px 4px 6px;
+	  height: 50px;
+	  line-height: 100%;
+	  border-radius: 0px;
+	  -webkit-border-radius: 0px;
+	  -moz-border-radius: 0px;
+	  box-shadow: 2px 2px 3px #666666;
+	  -webkit-box-shadow: 2px 2px 3px #666666;
+	  -moz-box-shadow: 2px 2px 3px #666666;
+	  background: #8B8B8B;
+	  background: linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  background: -ms-linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  background: -webkit-gradient(linear, left top, left bottom, from(#D6D6D6), to(#7A7A7A));
+	  background: -moz-linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  border: solid 1px #6D6D6D;
+	  position:relative;
+	  z-index:999;
+	}
+	#menu-bar li {
+	  margin: 10px 0px 6px 0px;
+	  padding: 0px 6px 0px 6px;
+	  float: left;
+	  position: relative;
+	  list-style: none;
+	}
+	#menu-bar a {
+	  font-family:Minecraft;
+	  font-size: 20px;
+	  color: #E7E5E5;
+	  text-decoration: none;
+	  display: block;
+	  padding: 6px 20px 6px 20px;
+	  margin: 0;
+	  margin-bottom: 6px;
+	  border-radius: 10px;
+	  -webkit-border-radius: 10px;
+	  -moz-border-radius: 10px;
+	  text-shadow: 2px 2px 3px #000000;
+	}
+	
+	input[type="search"]{
+    width: 45px; /*ancho por defecto*/
+    background: #ededed url('../img/search-icon.png') no-repeat 9px center; /*icono lupa*/
+	background-size: 20px 20px;
+    padding: 9px 10px 9px 32px;
+    border-radius: 15em;
+    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+    transition: all .5s; /* transición de .5seg a todos los elementos*/
+    outline: none; /* ocultar el fucos automático de los input */
+	top: 5px;
+	position:relative;
+	float: right;
+	}
+	input[type="search"]:focus{
+		width: 130px; /*tamaño del boton buscar al hacer click*/
+		padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+		color: #000;
+		background-color: #FFF;
+	}
+	
+	.fotofacebook{
+		width: 7.5%;
+		top: 2px;
+		position: relative;
+	}
+
+	.fototwitter{
+		width: 7%;
+		top: -4px;
+		position: relative;
+		margin: 0px 0px 0px 20px;
+	}
+	.fotoinsta{
+		width: 7%;
+		top: 2px;
+		position: relative;
+		margin: 0px 0px 0px 30px;
+	}
+}
+
+@media (min-width: 850px){
+	#menu-bar {
+	  width: 98.975%;
+	  margin: 0px 0px 0px -1px;
+	  padding: 6px 6px 4px 6px;
+	  height: 50px;
+	  line-height: 100%;
+	  border-radius: 0px;
+	  -webkit-border-radius: 0px;
+	  -moz-border-radius: 0px;
+	  box-shadow: 2px 2px 3px #666666;
+	  -webkit-box-shadow: 2px 2px 3px #666666;
+	  -moz-box-shadow: 2px 2px 3px #666666;
+	  background: #8B8B8B;
+	  background: linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  background: -ms-linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  background: -webkit-gradient(linear, left top, left bottom, from(#D6D6D6), to(#7A7A7A));
+	  background: -moz-linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  border: solid 1px #6D6D6D;
+	  position:relative;
+	  z-index:999;
+	}
+	#menu-bar li {
+	  margin: 10px 0px 6px 0px;
+	  padding: 0px 6px 0px 6px;
+	  float: left;
+	  position: relative;
+	  list-style: none;
+	}
+	#menu-bar a {
+	  font-family:Minecraft;
+	  font-size: 20px;
+	  color: #E7E5E5;
+	  text-decoration: none;
+	  display: block;
+	  padding: 6px 20px 6px 20px;
+	  margin: 0;
+	  margin-bottom: 6px;
+	  border-radius: 10px;
+	  -webkit-border-radius: 10px;
+	  -moz-border-radius: 10px;
+	  text-shadow: 2px 2px 3px #000000;
+	}
+	
+	input[type="search"]{
+    width: 45px; /*ancho por defecto*/
+    background: #ededed url('../img/search-icon.png') no-repeat 9px center; /*icono lupa*/
+	background-size: 20px 20px;
+    padding: 9px 10px 9px 32px;
+    border-radius: 15em;
+    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+    transition: all .5s; /* transición de .5seg a todos los elementos*/
+    outline: none; /* ocultar el fucos automático de los input */
+	top: 5px;
+	position:relative;
+	float: right;
+	}
+	input[type="search"]:focus{
+		width: 130px; /*tamaño del boton buscar al hacer click*/
+		padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+		color: #000;
+		background-color: #FFF;
+	}
+		.fotofacebook{
+		width: 7.5%;
+		top: 2px;
+		position: relative;
+	}
+
+	.fototwitter{
+		width: 7%;
+		top: -4px;
+		position: relative;
+		margin: 0px 0px 0px 20px;
+	}
+	.fotoinsta{
+		width: 7%;
+		top: 2px;
+		position: relative;
+		margin: 0px 0px 0px 30px;
+	}
+}
+
+@media (min-width: 915px){
+	#menu-bar {
+	  width: 98.975%;
+	  margin: 0px 0px 0px -1px;
+	  padding: 6px 6px 4px 6px;
+	  height: 50px;
+	  line-height: 100%;
+	  border-radius: 0px;
+	  -webkit-border-radius: 0px;
+	  -moz-border-radius: 0px;
+	  box-shadow: 2px 2px 3px #666666;
+	  -webkit-box-shadow: 2px 2px 3px #666666;
+	  -moz-box-shadow: 2px 2px 3px #666666;
+	  background: #8B8B8B;
+	  background: linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  background: -ms-linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  background: -webkit-gradient(linear, left top, left bottom, from(#D6D6D6), to(#7A7A7A));
+	  background: -moz-linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  border: solid 1px #6D6D6D;
+	  position:relative;
+	  z-index:999;
+	}
+	#menu-bar li {
+	  margin: 10px 0px 6px 0px;
+	  padding: 0px 6px 0px 6px;
+	  float: left;
+	  position: relative;
+	  list-style: none;
+	}
+	#menu-bar a {
+	  font-family:Minecraft;
+	  font-size: 20px;
+	  color: #E7E5E5;
+	  text-decoration: none;
+	  display: block;
+	  padding: 6px 20px 6px 20px;
+	  margin: 0;
+	  margin-bottom: 6px;
+	  border-radius: 10px;
+	  -webkit-border-radius: 10px;
+	  -moz-border-radius: 10px;
+	  text-shadow: 2px 2px 3px #000000;
+	}
+	
+	input[type="search"]{
+    width: 45px; /*ancho por defecto*/
+    background: #ededed url('../img/search-icon.png') no-repeat 9px center; /*icono lupa*/
+	background-size: 20px 20px;
+    padding: 9px 10px 9px 32px;
+    border-radius: 15em;
+    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+    transition: all .5s; /* transición de .5seg a todos los elementos*/
+    outline: none; /* ocultar el fucos automático de los input */
+	top: 5px;
+	position:relative;
+	float: right;
+	}
+	input[type="search"]:focus{
+		width: 130px; /*tamaño del boton buscar al hacer click*/
+		padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+		color: #000;
+		background-color: #FFF;
+	}
+		.fotofacebook{
+		width: 7.5%;
+		top: 2px;
+		position: relative;
+	}
+
+	.fototwitter{
+		width: 7%;
+		top: -4px;
+		position: relative;
+		margin: 0px 0px 0px 20px;
+	}
+	.fotoinsta{
+		width: 7%;
+		top: 2px;
+		position: relative;
+		margin: 0px 0px 0px 30px;
+	}
+}
+
+@media (min-width: 975px){
+	#menu-bar {
+	  width: 98.975%;
+	  margin: 0px 0px 0px -1px;
+	  padding: 6px 6px 4px 6px;
+	  height: 50px;
+	  line-height: 100%;
+	  border-radius: 0px;
+	  -webkit-border-radius: 0px;
+	  -moz-border-radius: 0px;
+	  box-shadow: 2px 2px 3px #666666;
+	  -webkit-box-shadow: 2px 2px 3px #666666;
+	  -moz-box-shadow: 2px 2px 3px #666666;
+	  background: #8B8B8B;
+	  background: linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  background: -ms-linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  background: -webkit-gradient(linear, left top, left bottom, from(#D6D6D6), to(#7A7A7A));
+	  background: -moz-linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  border: solid 1px #6D6D6D;
+	  position:relative;
+	  z-index:999;
+	}
+	#menu-bar li {
+	  margin: 10px 0px 6px 0px;
+	  padding: 0px 6px 0px 6px;
+	  float: left;
+	  position: relative;
+	  list-style: none;
+	}
+	#menu-bar a {
+	  font-family:Minecraft;
+	  font-size: 20px;
+	  color: #E7E5E5;
+	  text-decoration: none;
+	  display: block;
+	  padding: 6px 20px 6px 20px;
+	  margin: 0;
+	  margin-bottom: 6px;
+	  border-radius: 10px;
+	  -webkit-border-radius: 10px;
+	  -moz-border-radius: 10px;
+	  text-shadow: 2px 2px 3px #000000;
+	}
+	
+	input[type="search"]{
+    width: 45px; /*ancho por defecto*/
+    background: #ededed url('../img/search-icon.png') no-repeat 9px center; /*icono lupa*/
+	background-size: 20px 20px;
+    padding: 9px 10px 9px 32px;
+    border-radius: 15em;
+    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+    transition: all .5s; /* transición de .5seg a todos los elementos*/
+    outline: none; /* ocultar el fucos automático de los input */
+	top: 5px;
+	position:relative;
+	float: right;
+	}
+	input[type="search"]:focus{
+		width: 130px; /*tamaño del boton buscar al hacer click*/
+		padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+		color: #000;
+		background-color: #FFF;
+	}
+		.fotofacebook{
+		width: 7.5%;
+		top: 2px;
+		position: relative;
+	}
+
+	.fototwitter{
+		width: 7%;
+		top: -4px;
+		position: relative;
+		margin: 0px 0px 0px 20px;
+	}
+	.fotoinsta{
+		width: 7%;
+		top: 2px;
+		position: relative;
+		margin: 0px 0px 0px 30px;
+	}
+}
+
+@media (min-width: 1020px){
+	#menu-bar {
+	  width: 98.975%;
+	  margin: 0px 0px 0px -1px;
+	  padding: 6px 6px 4px 6px;
+	  height: 50px;
+	  line-height: 100%;
+	  border-radius: 0px;
+	  -webkit-border-radius: 0px;
+	  -moz-border-radius: 0px;
+	  box-shadow: 2px 2px 3px #666666;
+	  -webkit-box-shadow: 2px 2px 3px #666666;
+	  -moz-box-shadow: 2px 2px 3px #666666;
+	  background: #8B8B8B;
+	  background: linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  background: -ms-linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  background: -webkit-gradient(linear, left top, left bottom, from(#D6D6D6), to(#7A7A7A));
+	  background: -moz-linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  border: solid 1px #6D6D6D;
+	  position:relative;
+	  z-index:999;
+	}
+	#menu-bar li {
+	  margin: 10px 0px 6px 0px;
+	  padding: 0px 6px 0px 6px;
+	  float: left;
+	  position: relative;
+	  list-style: none;
+	}
+	#menu-bar a {
+	  font-family:Minecraft;
+	  font-size: 20px;
+	  color: #E7E5E5;
+	  text-decoration: none;
+	  display: block;
+	  padding: 6px 20px 6px 20px;
+	  margin: 0;
+	  margin-bottom: 6px;
+	  border-radius: 10px;
+	  -webkit-border-radius: 10px;
+	  -moz-border-radius: 10px;
+	  text-shadow: 2px 2px 3px #000000;
+	}
+	
+	input[type="search"]{
+    width: 45px; /*ancho por defecto*/
+    background: #ededed url('../img/search-icon.png') no-repeat 9px center; /*icono lupa*/
+	background-size: 20px 20px;
+    padding: 9px 10px 9px 32px;
+    border-radius: 15em;
+    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+    transition: all .5s; /* transición de .5seg a todos los elementos*/
+    outline: none; /* ocultar el fucos automático de los input */
+	top: 5px;
+	position:relative;
+	float: right;
+	}
+	input[type="search"]:focus{
+		width: 130px; /*tamaño del boton buscar al hacer click*/
+		padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+		color: #000;
+		background-color: #FFF;
+	}
+		.fotofacebook{
+		width: 7.5%;
+		top: 2px;
+		position: relative;
+	}
+
+	.fototwitter{
+		width: 7%;
+		top: -4px;
+		position: relative;
+		margin: 0px 0px 0px 20px;
+	}
+	.fotoinsta{
+		width: 7%;
+		top: 2px;
+		position: relative;
+		margin: 0px 0px 0px 30px;
+	}
+}
+
+@media (min-width: 1100px){
+	#menu-bar {
+	  width: 98.975%;
+	  margin: 0px 0px 0px -1px;
+	  padding: 6px 6px 4px 6px;
+	  height: 50px;
+	  line-height: 100%;
+	  border-radius: 0px;
+	  -webkit-border-radius: 0px;
+	  -moz-border-radius: 0px;
+	  box-shadow: 2px 2px 3px #666666;
+	  -webkit-box-shadow: 2px 2px 3px #666666;
+	  -moz-box-shadow: 2px 2px 3px #666666;
+	  background: #8B8B8B;
+	  background: linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  background: -ms-linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  background: -webkit-gradient(linear, left top, left bottom, from(#D6D6D6), to(#7A7A7A));
+	  background: -moz-linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  border: solid 1px #6D6D6D;
+	  position:relative;
+	  z-index:999;
+	}
+	#menu-bar li {
+	  margin: 10px 0px 6px 0px;
+	  padding: 0px 6px 0px 6px;
+	  float: left;
+	  position: relative;
+	  list-style: none;
+	}
+	#menu-bar a {
+	  font-family:Minecraft;
+	  font-size: 20px;
+	  color: #E7E5E5;
+	  text-decoration: none;
+	  display: block;
+	  padding: 6px 20px 6px 20px;
+	  margin: 0;
+	  margin-bottom: 6px;
+	  border-radius: 10px;
+	  -webkit-border-radius: 10px;
+	  -moz-border-radius: 10px;
+	  text-shadow: 2px 2px 3px #000000;
+	}
+	
+	input[type="search"]{
+    width: 45px; /*ancho por defecto*/
+    background: #ededed url('../img/search-icon.png') no-repeat 9px center; /*icono lupa*/
+	background-size: 20px 20px;
+    padding: 9px 10px 9px 32px;
+    border-radius: 15em;
+    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+    transition: all .5s; /* transición de .5seg a todos los elementos*/
+    outline: none; /* ocultar el fucos automático de los input */
+	top: 5px;
+	position:relative;
+	float: right;
+	}
+	input[type="search"]:focus{
+		width: 130px; /*tamaño del boton buscar al hacer click*/
+		padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+		color: #000;
+		background-color: #FFF;
+	}
+		.fotofacebook{
+		width: 7.5%;
+		top: 2px;
+		position: relative;
+	}
+
+	.fototwitter{
+		width: 7%;
+		top: -4px;
+		position: relative;
+		margin: 0px 0px 0px 20px;
+	}
+	.fotoinsta{
+		width: 7%;
+		top: 2px;
+		position: relative;
+		margin: 0px 0px 0px 30px;
+	}
+}
+
+@media (min-width: 1200px){
+	#menu-bar {
+	  width: 98.975%;
+	  margin: 0px 0px 0px -1px;
+	  padding: 6px 6px 4px 6px;
+	  height: 50px;
+	  line-height: 100%;
+	  border-radius: 0px;
+	  -webkit-border-radius: 0px;
+	  -moz-border-radius: 0px;
+	  box-shadow: 2px 2px 3px #666666;
+	  -webkit-box-shadow: 2px 2px 3px #666666;
+	  -moz-box-shadow: 2px 2px 3px #666666;
+	  background: #8B8B8B;
+	  background: linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  background: -ms-linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  background: -webkit-gradient(linear, left top, left bottom, from(#D6D6D6), to(#7A7A7A));
+	  background: -moz-linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  border: solid 1px #6D6D6D;
+	  position:relative;
+	  z-index:999;
+	}
+	#menu-bar li {
+	  margin: 10px 0px 6px 0px;
+	  padding: 0px 6px 0px 6px;
+	  float: left;
+	  position: relative;
+	  list-style: none;
+	}
+	#menu-bar a {
+	  font-family:Minecraft;
+	  font-size: 20px;
+	  color: #E7E5E5;
+	  text-decoration: none;
+	  display: block;
+	  padding: 6px 20px 6px 20px;
+	  margin: 0;
+	  margin-bottom: 6px;
+	  border-radius: 10px;
+	  -webkit-border-radius: 10px;
+	  -moz-border-radius: 10px;
+	  text-shadow: 2px 2px 3px #000000;
+	}
+	
+	input[type="search"]{
+    width: 45px; /*ancho por defecto*/
+    background: #ededed url('../img/search-icon.png') no-repeat 9px center; /*icono lupa*/
+	background-size: 20px 20px;
+    padding: 9px 10px 9px 32px;
+    border-radius: 15em;
+    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+    transition: all .5s; /* transición de .5seg a todos los elementos*/
+    outline: none; /* ocultar el fucos automático de los input */
+	top: 5px;
+	position:relative;
+	float: right;
+	}
+	input[type="search"]:focus{
+		width: 130px; /*tamaño del boton buscar al hacer click*/
+		padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+		color: #000;
+		background-color: #FFF;
+	}
+
+	.fotofacebook{
+		width: 5.5%;
+		top: 2px;
+		position: relative;
+		margin: 0px 0px 0px 0px;
+	}
+
+	.fototwitter{
+		width: 6%;
+		top: -4px;
+		position: relative;
+		margin: 0px 0px 0px 0px;
+	}
+	.fotoinsta{
+		width: 6%;
+		top: 2px;
+		position: relative;
+		margin: 0px 0px 0px 0px;
+	}
+}
+
+@media (min-width: 1300px){
+	#menu-bar {
+	  width: 98.975%;
+	  margin: 0px 0px 0px -1px;
+	  padding: 6px 6px 4px 6px;
+	  height: 50px;
+	  line-height: 100%;
+	  border-radius: 0px;
+	  -webkit-border-radius: 0px;
+	  -moz-border-radius: 0px;
+	  box-shadow: 2px 2px 3px #666666;
+	  -webkit-box-shadow: 2px 2px 3px #666666;
+	  -moz-box-shadow: 2px 2px 3px #666666;
+	  background: #8B8B8B;
+	  background: linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  background: -ms-linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  background: -webkit-gradient(linear, left top, left bottom, from(#D6D6D6), to(#7A7A7A));
+	  background: -moz-linear-gradient(top,  #D6D6D6,  #7A7A7A);
+	  border: solid 1px #6D6D6D;
+	  position:relative;
+	  z-index:999;
+	}
+	#menu-bar li {
+	  margin: 10px 0px 6px 0px;
+	  padding: 0px 6px 0px 6px;
+	  float: left;
+	  position: relative;
+	  list-style: none;
+	}
+	#menu-bar a {
+	  font-family:Minecraft;
+	  font-size: 20px;
+	  color: #E7E5E5;
+	  text-decoration: none;
+	  display: block;
+	  padding: 6px 20px 6px 20px;
+	  margin: 0;
+	  margin-bottom: 6px;
+	  border-radius: 10px;
+	  -webkit-border-radius: 10px;
+	  -moz-border-radius: 10px;
+	  text-shadow: 2px 2px 3px #000000;
+	}
+	
+	input[type="search"]{
+    width: 45px; /*ancho por defecto*/
+    background: #ededed url('../img/search-icon.png') no-repeat 9px center; /*icono lupa*/
+	background-size: 20px 20px;
+    padding: 9px 10px 9px 32px;
+    border-radius: 15em;
+    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+    transition: all .5s; /* transición de .5seg a todos los elementos*/
+    outline: none; /* ocultar el fucos automático de los input */
+	top: 5px;
+	position:relative;
+	float: right;
+	}
+	input[type="search"]:focus{
+		width: 130px; /*tamaño del boton buscar al hacer click*/
+		padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+		color: #000;
+		background-color: #FFF;
+	}
+	
+	.fotofacebook{
+		width: 5.5%;
+		top: 2px;
+		position: relative;
+		margin: 0px 0px 0px 0px;
+	}
+
+	.fototwitter{
+		width: 6%;
+		top: -4px;
+		position: relative;
+		margin: 0px 0px 0px 0px;
+	}
+	.fotoinsta{
+		width: 6%;
+		top: 2px;
+		position: relative;
+		margin: 0px 0px 0px 0px;
+	}
+}	
+
+
+
+.final {
+	background: linear-gradient(top,  #00A93E,  #004F15);
+	background: -ms-linear-gradient(top,  #00A93E,  #004F15);
+	background: -webkit-gradient(linear, left top, left bottom, from(#00A93E), to(#004F15));
+	background: -moz-linear-gradient(top,  #00A93E,  #004F15);
+	height: 72px;
+	width: 100%;
+	-webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+	
+
+}
+
+.fototitulo{
+	 width: 100%;
+}
+
+@font-face{
+		   font-family:"Minecraft";
+		   src:url(../fonts/Minecraft-Regular.otf);
+		   
+}
+
+body{		
+	width:95%;
+	margin:auto;
+	height:100%;
+	background-color: black;
+}
+ 
+header{
+	box-shadow: 2px 2px 3px #666666;
+	-webkit-box-shadow: 2px 2px 3px #666666;
+	-moz-box-shadow: 2px 2px 3px #666666;
+	
+}
+
+#menu-bar li ul li a {
+  margin: 0;
+}
+#menu-bar .active a, #menu-bar li:hover > a {
+  background: #0399D4;
+  background: linear-gradient(top,  #EBEBEB,  #A1A1A1);
+  background: -ms-linear-gradient(top,  #EBEBEB,  #A1A1A1);
+  background: -webkit-gradient(linear, left top, left bottom, from(#EBEBEB), to(#A1A1A1));
+  background: -moz-linear-gradient(top,  #EBEBEB,  #A1A1A1);
+  color: #444444;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  text-shadow: 2px 2px 3px #FFFFFF;
+}
+#menu-bar ul li:hover a, #menu-bar li:hover li a {
+  background: none;
+  border: none;
+  color: #666;
+  -box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+#menu-bar ul a:hover {
+  background: #0399D4 !important;
+  background: linear-gradient(top,  #EBEBEB  #A1A1A1) !important;
+  background: -ms-linear-gradient(top,  #EBEBEB,  #A1A1A1) !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#EBEBEB), to(#A1A1A1)) !important;
+  background: -moz-linear-gradient(top,  #EBEBEB,  #A1A1A1) !important;
+  color: ##E3E3E3 !important;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  text-shadow: 2px 2px 3px ##E3E3E3;
+}
+#menu-bar li:hover > ul {
+  display: block;
+}
+#menu-bar ul {
+  background: #DDDDDD;
+  background: linear-gradient(top,  #FFFFFF,  #CFCFCF);
+  background: -ms-linear-gradient(top,  #FFFFFF,  #CFCFCF);
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#CFCFCF));
+  background: -moz-linear-gradient(top,  #FFFFFF,  #CFCFCF);
+  display: none;
+  margin: 0;
+  padding: 0;
+  width: 185px;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  border: solid 1px #B4B4B4;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 3px #222222;
+  -moz-box-shadow: 2px 2px 3px #222222;
+  box-shadow: 2px 2px 3px #222222;
+}
+#menu-bar ul li {
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+#menu-bar ul a {
+  padding:10px 0px 10px 15px;
+  color:#424242 !important;
+  font-size:12px;
+  font-family:Minecraft;
+  text-shadow: 2px 2px 3px #FFFFFF;
+}
+#menu-bar ul li:first-child > a {
+  border-top-left-radius: 10px;
+  -webkit-border-top-left-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  border-top-right-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topright: 10px;
+}
+#menu-bar ul li:last-child > a {
+  border-bottom-left-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-bottom-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+}
+#menu-bar:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#menu-bar {
+  display: inline-block;
+}
+  html[xmlns] #menu-bar {
+  display: block;
+}
+* html #menu-bar {
+  height: 1%;
+}

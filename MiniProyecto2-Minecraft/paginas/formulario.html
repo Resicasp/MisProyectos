@@ -1,0 +1,73 @@
+<html>
+	<header>
+		<link rel="shortcut icon" href="img/Icono.png"/>
+		<meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+		<link rel="stylesheet" href="../css/formulario.css" >
+		<link rel="stylesheet" href="../css/cabecera.css" >
+		<img src="../img/Minecrafttitulo2.jpg" class="fototitulo"/>	
+		<script type = "text/javascript" src="../js/mijs.js">
+		</script>
+	</header>
+	
+	<nav>	
+		<ul id="menu-bar">
+		 <li><a href="../index.html">Inicio</a></li>
+		 <li><a href="informacionutil.html">Información Útil</a></li>
+		 <li><a href="#">Modos</a>
+		  <ul>
+		   <li><a href="supervivencia.html">Supervivencia</a></li>
+		   <li><a href="creativo.html">Creativo</a></li>
+		   <li><a href="aventura.html">Aventura</a></li>
+		   <li><a href="extremo.html">Extremo</a></li>
+		  </ul>
+		 </li>
+		 <li><a href="#">Recetas</a>
+		  <ul>
+		   <li><a href="fabricacion.html">Fabricación</a></li>
+		   <li><a href="alquimia.html">Alquimia</a></li>
+		   <li><a href="fundicion.html">Fundicion</a></li>
+		  </ul>
+		 </li>
+		 
+		 <li class="active"><a href="about.html">About</a></li>
+		 <input type="search" id="buscar" placeholder="Buscar" onkeypress="validar(event)">		 
+		</ul>
+		
+	</nav>
+	
+	<section>
+		<a href="about.html"><div class="imgBox"></div></a>
+		<a href="about.html"><div class="imgBox2"></div></a>
+		<div>
+			<div class="titulo">
+				<center>Contacto</center><br><br>
+			</div>
+			<center>
+				<div class="formu">
+					<form>
+					Nombre: <input type="text" name="name_control" autofocus required /><br><br>
+					Correo Electrónico: <input type="email" name="email_control" required /><br><br>
+
+					Fecha de Nacimiento: <input type="date" name="date_control" /><br><br>
+					Nota que le das a la página (min 0, max 10): <input type="number" name="number_control" min="0" max="10" value="0" /><br><br>
+					
+					¿Sobre qué quieres hablar?:<br>
+					<input type="radio" name="gender" value="male" checked>Juego<br>
+					<input type="radio" name="gender" value="female">Página<br>
+					<input type="radio" name="gender" value="other"> Otros<br><br>
+					
+					Escribe aquí sobre el asunto: <br><textarea rows="4" cols="50" required></textarea><br><br>
+					
+					<button class="button" type="submit" onclick='alert("¡Pronto recibira un correo! Gracias.")' >Enviar</button>
+					</form>
+				</div>
+			</center>
+		</div>
+	</section>
+	
+	<footer class="final">	
+		<center><a href="http://www.facebook.es"><img src="../img/F2.png" class="fotofacebook"/></a>
+		<a href="http://www.instagram.es"><img src="../img/I2.png" class="fotoinsta"/></a>
+		<a href="http://www.twitter.es"><img src="../img/T2.png" class="fototwitter"/></a><center>
+	</footer>
+</html>

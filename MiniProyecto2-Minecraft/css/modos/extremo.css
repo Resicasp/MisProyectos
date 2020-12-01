@@ -1,0 +1,193 @@
+@media (min-width: 0px) {
+	
+	section{
+		background-color: #e8e8e8;
+		width:100%;
+		margin:auto;
+		height:1800px;
+		font-family:Minecraft;
+		box-shadow: 2px 2px 3px #666666;
+		-webkit-box-shadow: 2px 2px 3px #666666;
+		-moz-box-shadow: 2px 2px 3px #666666;
+	}
+	
+	
+}
+
+
+@media (min-width: 480px) {
+	
+	section{
+		background-color: #e8e8e8;
+		width:100%;
+		margin:auto;
+		height:1400px;
+		font-family:Minecraft;
+		box-shadow: 2px 2px 3px #666666;
+		-webkit-box-shadow: 2px 2px 3px #666666;
+		-moz-box-shadow: 2px 2px 3px #666666;
+	}
+
+}
+
+
+@media (min-width: 700px){
+	
+	section{
+	background-color: #e8e8e8;
+	width:100%;
+	margin:auto;
+	height:1100px;
+	font-family:Minecraft;
+	box-shadow: 2px 2px 3px #666666;
+	-webkit-box-shadow: 2px 2px 3px #666666;
+	-moz-box-shadow: 2px 2px 3px #666666;
+	}
+	.contenedor{
+	display: flex;
+	}
+}
+
+
+@media (min-width: 815px){
+	
+	section{
+	background-color: #e8e8e8;
+	width:100%;
+	margin:auto;
+	height:1050px;
+	font-family:Minecraft;
+	box-shadow: 2px 2px 3px #666666;
+	-webkit-box-shadow: 2px 2px 3px #666666;
+	-moz-box-shadow: 2px 2px 3px #666666;
+	}
+	.contenedor{
+	display: flex;
+	}
+}
+
+
+@media (min-width: 1020px){
+
+	section{
+	background-color: #e8e8e8;
+	width:100%;
+	margin:auto;
+	height:1100px;
+	font-family:Minecraft;
+	box-shadow: 2px 2px 3px #666666;
+	-webkit-box-shadow: 2px 2px 3px #666666;
+	-moz-box-shadow: 2px 2px 3px #666666;
+	}
+	.contenedor{
+	display: flex;
+	}
+}
+
+
+@media (min-width: 1200px){
+
+	section{
+	background-color: #e8e8e8;
+	width:100%;
+	margin:auto;
+	height:1100px;
+	font-family:Minecraft;
+	box-shadow: 2px 2px 3px #666666;
+	-webkit-box-shadow: 2px 2px 3px #666666;
+	-moz-box-shadow: 2px 2px 3px #666666;
+	}
+	
+	.contenedor{
+	display: flex;
+	}
+	
+	
+
+}
+	
+
+
+
+//------Pseudo Clases-----
+a:link {
+  color: green;
+  font-weight: bold
+}
+
+a:visited {
+  color: red;
+  font-weight: bold
+}
+
+//----Pseudo Elementos-----
+div p:after { 
+content: "."; 
+}
+
+
+::-moz-selection { 
+color: gold;  background: red; 
+}
+::selection { 
+color: gold;  background: red;
+} 
+
+
+
+
+
+
+
+div p {
+  margin: 40px;
+  text-align:justify;
+ 
+}
+
+
+
+
+
+
+.imgBox{
+    width: 50px;
+    height: 50px;
+    background: url(../../img/boton/boton2.png) no-repeat;
+	background-size: 50px 50px;
+	float:left;
+	margin: 20px;
+}
+.imgBox:hover{
+	background: url(../../img/boton/boton2_1.png);
+	background-size: 50px 50px;
+}
+
+.imgBox2{
+    width: 50px;
+    height: 50px;
+	background-size: 50px 50px;
+	float:right;
+	margin: 20px;
+}
+.imgBox2:hover2{
+	background-size: 50px 50px;
+}
+
+
+
+
+
+.titulo{
+	position:relative;
+	top:50px;
+	margin: 0px 30px 0px 30px;
+	font-size:32px;
+}
+
+
+.foto2{
+	position:relative;	
+	width: 80%;
+	margin: 20px 0px 30px 20px;
+}

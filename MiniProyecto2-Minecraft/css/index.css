@@ -1,0 +1,775 @@
+@media (min-width: 0px){
+	.inicio1{
+		position: relative;
+		height: 50%;
+		top: 90px;
+	}
+	
+	.inicio1_1{
+		position: relative;
+		width: 47.987%;
+		height: 50%;
+		top: -330px;
+		margin: 40px;
+		
+	}
+	.fotominecraft1_1{
+		width: 170%;
+		
+	
+	}
+	
+	
+	.inicio2{
+		position: relative;
+		height: 50%;
+		top: -2100px;
+		
+	}
+	
+	.inicio2_1{
+		position: relative;
+		width: 47.987%;
+		height: 50%;
+		top: -500px;
+		margin: 40px;
+		
+	}
+	.fotominecraft2_1{
+		width: 170%;
+		
+	
+	}
+	
+	section{
+		background-color: #e8e8e8;
+		width:100%;
+		margin:auto;
+		height:2100px;
+		font-family:Minecraft;
+		box-shadow: 2px 2px 3px #666666;
+		-webkit-box-shadow: 2px 2px 3px #666666;
+		-moz-box-shadow: 2px 2px 3px #666666;
+	}
+	
+	
+}
+
+@media (min-width: 480px){
+	
+	.inicio1{
+		position: relative;
+		height: 50%;
+		top: 90px;
+	}
+	
+	.inicio1_1{
+		position: relative;
+		width: 47.987%;
+		height: 50%;
+		top: -550px;
+		margin: 40px;
+		
+	}
+	.fotominecraft1_1{
+		width: 170%;
+		
+	
+	}
+	
+	
+	.inicio2{
+		position: relative;
+		height: 50%;
+		top: -2250px;
+		
+	}
+	
+	.inicio2_1{
+		position: relative;
+		width: 47.987%;
+		height: 50%;
+		top: -750px;
+		margin: 40px;
+		
+	}
+	.fotominecraft1_1{
+		width: 170%;
+		
+	
+	}
+	
+
+	
+	section{
+		background-color: #e8e8e8;
+		width:100%;
+		margin:auto;
+		height:2200px;
+		font-family:Minecraft;
+		box-shadow: 2px 2px 3px #666666;
+		-webkit-box-shadow: 2px 2px 3px #666666;
+		-moz-box-shadow: 2px 2px 3px #666666;
+	}
+	
+	.contenedor{
+	
+	}
+}
+
+@media (min-width: 700px){
+	
+	.inicio1{
+		position: relative;
+		float: left;
+		width: 47.987%;
+		height: 50%;
+		top: 90px;
+		
+	}
+	
+	.inicio1_1{
+		position: relative;
+		float: right;
+		width: 47.987%;
+		height: 50%;
+		top: 270px;
+	
+		
+	}
+	.fotominecraft1_1{
+		width: 100%;
+		
+		
+	}
+	
+	
+	
+	.inicio2{
+		position: relative;
+		width: 47.987%;
+		top: 150px;
+		float:right;
+	}
+	
+	.inicio2_1{
+		position: relative;
+		width: 47.987%;
+		top: 220px;
+		float:left;
+		margin: 35px;
+		
+	}
+	
+	.fotominecraft2_1{
+		width: 90.2%;
+		
+	}
+	
+	
+	
+	section{
+	background-color: #e8e8e8;
+	width:100%;
+	margin:auto;
+	height:1500px;
+	font-family:Minecraft;
+	box-shadow: 2px 2px 3px #666666;
+	-webkit-box-shadow: 2px 2px 3px #666666;
+	-moz-box-shadow: 2px 2px 3px #666666;
+	}
+	.contenedor{
+	display: flex;
+	}
+}
+
+@media (min-width: 775px){
+	.inicio1{
+		position: relative;
+		float: left;
+		width: 47.987%;
+		height: 50%;
+		top: 90px;
+		
+	}
+	
+	.inicio1_1{
+		position: relative;
+		float: right;
+		width: 47.987%;
+		height: 50%;
+		top: 200px;
+	
+		
+	}
+	.fotominecraft1_1{
+		width: 100%;
+		
+		
+	}
+	
+	
+	
+	.inicio2{
+		position: relative;
+		width: 47.987%;
+		top: 150px;
+		float:right;
+	}
+	
+	.inicio2_1{
+		position: relative;
+		width: 47.987%;
+		top: 200px;
+		float:left;
+		margin: 35px;
+		
+	}
+	
+	.fotominecraft2_1{
+		width: 90.2%;
+		
+	}
+	
+	
+	
+	section{
+	background-color: #e8e8e8;
+	width:100%;
+	margin:auto;
+	height:1500px;
+	font-family:Minecraft;
+	box-shadow: 2px 2px 3px #666666;
+	-webkit-box-shadow: 2px 2px 3px #666666;
+	-moz-box-shadow: 2px 2px 3px #666666;
+	}
+	.contenedor{
+	display: flex;
+	}
+}
+
+@media (min-width: 850px){
+	.inicio1{
+		position: relative;
+		float: left;
+		width: 47.987%;
+		height: 50%;
+		top: 90px;
+		
+	}
+	
+	.inicio1_1{
+		position: relative;
+		float: right;
+		width: 47.987%;
+		height: 50%;
+		top: 160px;
+	
+		
+	}
+	.fotominecraft1_1{
+		width: 100%;
+		
+		
+	}
+	
+	
+	
+	.inicio2{
+		position: relative;
+		width: 47.987%;
+		top: 200px;
+		float:right;
+	}
+	
+	.inicio2_1{
+		position: relative;
+		width: 47.987%;
+		top: 190px;
+		float:left;
+		margin: 35px;
+		
+	}
+	
+	.fotominecraft2_1{
+		width: 90.2%;
+		
+	}
+	
+	
+	
+	section{
+	background-color: #e8e8e8;
+	width:100%;
+	margin:auto;
+	height:1500px;
+	font-family:Minecraft;
+	box-shadow: 2px 2px 3px #666666;
+	-webkit-box-shadow: 2px 2px 3px #666666;
+	-moz-box-shadow: 2px 2px 3px #666666;
+	}
+	.contenedor{
+	display: flex;
+	}
+}
+
+@media (min-width: 915px){
+	
+	.inicio1{
+		position: relative;
+		float: left;
+		width: 47.987%;
+		height: 50%;
+		top: 90px;
+		
+	}
+	
+	.inicio1_1{
+		position: relative;
+		float: right;
+		width: 47.987%;
+		height: 50%;
+		top: 120px;
+	
+		
+	}
+	.fotominecraft1_1{
+		width: 100%;
+		
+		
+	}
+	
+	
+	
+	.inicio2{
+		position: relative;
+		width: 47.987%;
+		top: 200px;
+		float:right;
+	}
+	
+	.inicio2_1{
+		position: relative;
+		width: 47.987%;
+		top: 160px;
+		float:left;
+		margin: 35px;
+		
+	}
+	
+	.fotominecraft2_1{
+		width: 90.2%;
+		
+	}
+	
+	
+	
+	section{
+	background-color: #e8e8e8;
+	width:100%;
+	margin:auto;
+	height:1500px;
+	font-family:Minecraft;
+	box-shadow: 2px 2px 3px #666666;
+	-webkit-box-shadow: 2px 2px 3px #666666;
+	-moz-box-shadow: 2px 2px 3px #666666;
+	}
+	.contenedor{
+	display: flex;
+	}
+}
+
+@media (min-width: 975px){
+	
+	.inicio1{
+		position: relative;
+		float: left;
+		width: 47.987%;
+		height: 50%;
+		top: 90px;
+		
+	}
+	
+	.inicio1_1{
+		position: relative;
+		float: right;
+		width: 47.987%;
+		height: 50%;
+		top: 100px;
+	
+		
+	}
+	.fotominecraft1_1{
+		width: 100%;
+		
+		
+	}
+	
+	
+	
+	.inicio2{
+		position: relative;
+		width: 47.987%;
+		top: 200px;
+		float:right;
+	}
+	
+	.inicio2_1{
+		position: relative;
+		width: 47.987%;
+		top: 150px;
+		float:left;
+		margin: 35px;
+		
+	}
+	
+	.fotominecraft2_1{
+		width: 90.2%;
+		
+	}
+	
+	
+	
+	section{
+	background-color: #e8e8e8;
+	width:100%;
+	margin:auto;
+	height:1500px;
+	font-family:Minecraft;
+	box-shadow: 2px 2px 3px #666666;
+	-webkit-box-shadow: 2px 2px 3px #666666;
+	-moz-box-shadow: 2px 2px 3px #666666;
+	}
+	.contenedor{
+	display: flex;
+	}
+}
+
+@media (min-width: 1020px){
+	
+	.inicio1{
+		position: relative;
+		float: left;
+		width: 47.987%;
+		height: 50%;
+		top: 90px;
+		
+	}
+	
+	.inicio1_1{
+		position: relative;
+		float: right;
+		width: 47.987%;
+		height: 50%;
+		top: 80px;
+	
+		
+	}
+	.fotominecraft1_1{
+		width: 100%;
+		
+		
+	}
+	
+	
+	
+	.inicio2{
+		position: relative;
+		width: 47.987%;
+		top: 200px;
+		float:right;
+	}
+	
+	.inicio2_1{
+		position: relative;
+		width: 47.987%;
+		top: 100px;
+		float:left;
+		margin: 35px;
+		
+	}
+	
+	.fotominecraft2_1{
+		width: 90.2%;
+		
+	}
+	
+	
+	
+	section{
+	background-color: #e8e8e8;
+	width:100%;
+	margin:auto;
+	height:1300px;
+	font-family:Minecraft;
+	box-shadow: 2px 2px 3px #666666;
+	-webkit-box-shadow: 2px 2px 3px #666666;
+	-moz-box-shadow: 2px 2px 3px #666666;
+	}
+	.contenedor{
+	display: flex;
+	}
+}
+
+@media (min-width: 1100px){
+	
+	.inicio1{
+		position: relative;
+		float: left;
+		width: 47.987%;
+		height: 50%;
+		top: 90px;
+		
+	}
+	
+	.inicio1_1{
+		position: relative;
+		float: right;
+		width: 47.987%;
+		height: 50%;
+		top: 50px;
+	
+		
+	}
+	.fotominecraft1_1{
+		width: 100%;
+		
+		
+	}
+	
+	
+	
+	.inicio2{
+		position: relative;
+		width: 47.987%;
+		top: 200px;
+		float:right;
+	}
+	
+	.inicio2_1{
+		position: relative;
+		width: 47.987%;
+		top: 100px;
+		float:left;
+		margin: 35px;
+		
+	}
+	
+	.fotominecraft2_1{
+		width: 90.2%;
+		
+	}
+	
+	
+	
+	section{
+	background-color: #e8e8e8;
+	width:100%;
+	margin:auto;
+	height:1400px;
+	font-family:Minecraft;
+	box-shadow: 2px 2px 3px #666666;
+	-webkit-box-shadow: 2px 2px 3px #666666;
+	-moz-box-shadow: 2px 2px 3px #666666;
+	}
+	.contenedor{
+	display: flex;
+	}
+}
+
+@media (min-width: 1200px){
+	
+	.inicio1{
+		position: relative;
+		width: 47.987%;
+		top: 90px;
+		float:left;
+	}
+	
+	.inicio1_1{
+		position: relative;
+		width: 47.987%;
+		top: -39px;
+		float:right;
+		
+		
+	}
+	
+	
+	.inicio2{
+		position: relative;
+		width: 47.987%;
+		top: 50px;
+		float:right;
+	}
+	
+	.inicio2_1{
+		position: relative;
+		width: 47.987%;
+		top: -111px;
+		float:left;
+		margin: 35px;
+		
+	}
+	
+	.fotominecraft2_1{
+		width: 90.2%;
+		
+	}
+	
+	
+	section{
+	background-color: #e8e8e8;
+	width:100%;
+	margin:auto;
+	height:1300px;
+	font-family:Minecraft;
+	box-shadow: 2px 2px 3px #666666;
+	-webkit-box-shadow: 2px 2px 3px #666666;
+	-moz-box-shadow: 2px 2px 3px #666666;
+	}
+	
+	.contenedor{
+	display: flex;
+	}
+}
+
+@media (min-width: 1300px){
+	
+	.inicio1{
+		position: relative;
+		width: 47.987%;
+		top: 90px;
+		float:left;
+	}
+	
+	.inicio1_1{
+		position: relative;
+		width: 47.987%;
+		top: -39px;
+		float:right;
+		
+		
+	}
+	
+	
+	.inicio2{
+		position: relative;
+		width: 47.987%;
+		top: 50px;
+		float:right;
+	}
+	
+	.inicio2_1{
+		position: relative;
+		width: 47.987%;
+		top: -111px;
+		float:left;
+		margin: 35px;
+		
+	}
+	
+	.fotominecraft2_1{
+		width: 90.2%;
+		
+	}
+	
+	
+	section{
+	background-color: #e8e8e8;
+	width:100%;
+	margin:auto;
+	height:1400px;
+	font-family:Minecraft;
+	box-shadow: 2px 2px 3px #666666;
+	-webkit-box-shadow: 2px 2px 3px #666666;
+	-moz-box-shadow: 2px 2px 3px #666666;
+	}
+	
+	.contenedor{
+	display: flex;
+	}
+}
+@media (min-width: 1400px){
+	
+	.inicio1{
+		position: relative;
+		width: 47.987%;
+		top: 90px;
+		float:left;
+	}
+	
+	.inicio1_1{
+		position: relative;
+		width: 47.987%;
+		top: -39px;
+		float:right;
+		
+		
+	}
+	
+	
+	.inicio2{
+		position: relative;
+		width: 47.987%;
+		top: 50px;
+		float:right;
+	}
+	
+	.inicio2_1{
+		position: relative;
+		width: 47.987%;
+		top: -111px;
+		float:left;
+		margin: 35px;
+		
+	}
+	
+	.fotominecraft1_1{
+		width: 100%;
+		
+	}
+	
+	
+	section{
+	background-color: #e8e8e8;
+	width:100%;
+	margin:auto;
+	height:1400px;
+	font-family:Minecraft;
+	box-shadow: 2px 2px 3px #666666;
+	-webkit-box-shadow: 2px 2px 3px #666666;
+	-moz-box-shadow: 2px 2px 3px #666666;
+	}
+	
+	.contenedor{
+	display: flex;
+	}
+}	
+	
+
+
+
+
+
+//----Pseudo Elementos-----
+p:after { 
+content: "."; 
+}
+
+
+::-moz-selection { 
+color: gold;  background: red; 
+}
+::selection { 
+color: gold;  background: red;
+} 
+
+
+
+	
+
+p {
+  margin: 40px;
+  text-align:justify;
+}
