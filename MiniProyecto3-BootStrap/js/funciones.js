@@ -1,0 +1,3 @@
+  $( function() {
+    $( "#prueb" ).accordion();
+  } );

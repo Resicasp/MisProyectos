@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <link href="../css/estilo.css" rel="stylesheet">
+	<link href="../css/cabepie.css" rel="stylesheet">
+	<link rel="shortcut icon" href="../img/bootstrap.png"/>
+		
+	<title>Bootstrap 4 </title>	
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="cabecera py-3">
+        <div class="row align-items-center">
+          <div class="col-12 text-center">
+            <a href="../index.html" class="titulo"><h1>Bootstrap 4: Objeto Media</h1></a>
+          </div>
+        </div>
+      </header>
+
+
+
+      <div class="nav-scroller py-1">
+        <nav class="nav d-flex">
+
+		  <a class="p-2 text-muted" href="../index.html"><strong>Atrás</strong></a>
+		  <a class="p-2 text-muted" href="objectomediatutorial.html"><strong>Objeto Media(Tutorial)</strong></a>
+		  <a class="p-2 text-muted" href="diseñoresponsive.html"><strong>¿Qué es el diseño responsive?</strong></a>
+        </nav>
+      </div>
+
+
+
+	  <div class="cajaprin card p-3 p-md-5 text-white">
+        <div class="col-md-12 px-0">
+          <h2 class="display-4 font-italic "><center>Objeto Media</center></h2>
+          <p class="lead my-3 text-justify">Para entender lo que es un objeto media lo mejor es irnos a la propia definición que nos da BootStrap 4:<br>
+			“Son elementos complejos y repetitivos en los cuáles algún elemento multimedia (una imagen normalmente) se posiciona junto a otro elemento.“<br>
+			¿Y éso qué es? Pues son cosas que vemos diariamente como anuncios en la web, comentarios en blogs que llevan fotos de perfil, listas de tweets etc…<br>
+			BootStrap 4 nos proporciona una manera fácil de construir este tipo de estructuras utilizando elementos flex, clases y etiquetas. La clase por defecto se llama "media".<br><br>
+			
+			Podemos también decidir cómo se van a disponer el resto de los elementos alrededor de la imagen usando clases como las siguiente y los márgenes correctos:<br>
+			•	align-self-start : Que alinea el contenido verticalmente con el borde superior de la imagen.<br>
+			•	align-self-center : La imagen queda centrada verticalmente en relación al resto de los elementos.<br>
+			•	align-self-end : Que alinea el contenido verticalmente con el borde superior de la imagen.<br><br>
+			
+			Tambien podemos construir listas. Tan solo debemos ponerle la clase media a los elementos de las etiquetas li que sustituirán al div.media.
+		 </p>
+    
+        </div>
+      </div>
+	  <div class="w-100 p-3"></div>
+	  
+	  
+
+
+
+
+	  <div class="row">
+		<h3>Demostracion:</h3>
+	  </div>
+	  
+  
+ 	  <div class="row">
+		<h4>Clase Media:</h4>
+	  </div>
+
+      <div class="row">
+        <div class="col m-3">
+          <div class="media">
+            <img src="../img/I2_opt.png" class="icon" alt="IconoPrueba" />
+            <div class="media-body">
+              <h5>Prueba 1</h5>
+              <p>Bienvenidos a esta prueba de bootstrap 4.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col m-3">
+            <div class="media">
+              <img src="../img/I2_opt.png" class="icon" alt="IconoPrueba" />
+              <div class="media-body">
+                <h5>Prueba 2</h5>
+                <p>Bienvenidos a esta prueba de bootstrap 4.</p>
+              </div>
+            </div>
+        </div>
+        <div class="col m-3">
+            <div class="media">
+              <img src="../img/I2_opt.png" class="rounded icon" alt="IconoPrueba"/>
+              <div class="media-body">
+                <h5>Prueba 3</h5>
+                <p>Bienvenidos a esta prueba de bootstrap 4.</p>
+              </div>
+            </div>
+        </div>
+	  </div>
+	  
+	  
+	  <h5>Codigo del ejemplo:</h5>
+	  	<div class="row">
+			<div class="col m-1 codigo">
+				<pre class="codigoint">
+
+					&lt;div class="col m-3"&gt;
+						&lt;div class="media"&gt;
+							&lt;img src="../img/I2_opt.png" class="icon" alt="IconoPrueba"&gt;
+							&lt;div class="media-body&gt;
+								&lt;h5&gt;Prueba &lt;/h5&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				</pre>	
+			</div>  
+		</div>
+	  
+	  
+
+
+
+	  
+	  <div class="w-100 p-3"></div>
+	  <div class="w-100 p-3"></div>
+	  <div class="row">
+		<h4>Clase Media Con Alineacion:</h4>
+	  </div>
+	  
+	 
+	  <div class="media">
+		  <img class="align-self-end mr-3" src="../img/I2_opt.png" alt="IconoPrueba">
+		  <div class="media-body">
+			<h5 class="mt-0">Bottom-aligned media</h5>
+			<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+			<p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+		  </div>
+	  </div>
+
+
+	  <div class="w-100 p-3"></div>
+	  	<h5>Codigo del ejemplo:</h5>
+	 	 <div class="row">
+			<div class="col m-1 codigo">
+				<pre class="codigoint2">
+
+					&lt;div class="col m-3"&gt;
+						&lt;div class="media"&gt;
+							&lt;img class="align-self-end mr-3" src="../img/I2_opt.png" alt="IconoPrueba"&gt;
+							&lt;div class="media-body&gt;
+								&lt;h5&gt;Prueba &lt;/h5&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				</pre>	
+			</div>  
+		</div>
+	  
+
+
+
+
+
+
+
+	  <div class="w-100 p-3"></div>
+	  <div class="w-100 p-3"></div>
+	  <div class="row">
+		<h4>Clase Media Con Listas:</h4>
+	  </div>
+	  
+	  
+	  <div class="row">
+		  <div class="col m-12">
+			  <ul>
+				<li class="media">
+					<img src="../img/I2_opt.png" alt="IconoPrueba"/>
+					<div class="media-body">
+					  <h3>Titulo 1</h3>
+					  <p>Texto relacionado</p>
+					  ...
+					</div>
+				</li>
+				<div class="w-25 p-3">
+				</div>
+				<li class="media">
+					<img src="../img/I2_opt.png" alt="IconoPrueba"/>
+					<div class="media-body">
+					  <h3>Titulo 2</h3>
+					  <p>Texto relacionado 2</p>
+					  ...
+					</div>
+				</li>
+			  </ul>
+		  </div>
+	  </div>
+
+	  
+	  <div class="w-100 p-3"></div>
+	  <h5>Codigo del ejemplo:</h5>
+	  <div class="row">
+		<div class="col m-1 codigo">
+			<pre class="">
+
+				&lt;div class="col m-3"&gt;
+					&lt;/ul&gt;
+						&lt;li class="media"&gt;
+							&lt;img src="../img/I2_opt.png" alt="IconoPrueba"&gt;
+							&lt;div class="media-body&gt;
+								&lt;h3&gt;Titulo2 &lt;/h3&gt;
+								&lt;h3&gt;Texto relacionado 2 &lt;/h3&gt;
+							&lt;/div&gt;
+						&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/div&gt;
+			</pre>	
+		</div>  
+	  </div>
+	  
+	  
+	  
+	  
+	  
+	  <div class="w-100 p-3"></div>
+	  <div class="w-100 p-3"></div>
+	  <div class="row">
+		<h4>Clase Media Con Herencia:</h4>
+	  </div>
+
+	   
+		<div class="row">
+			<div class="media">
+				<img class="mr-3" src="../img/I2_opt.png" alt="IconoPrueba">
+				<div class="media-body">
+					<h5 class="mt-0">Herencia 1</h5>
+					Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus
+					<div class="media mt-3">
+						<img src="../img/I2_opt.png" alt="IconoPrueba">
+						<div class="media-body">
+							<h5 class="mt-0">Herencia 2</h5>
+							Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="w-100 p-3"></div>
+	  	<h5>Codigo del ejemplo:</h5>
+	 	 <div class="row">
+			<div class="col m-1 codigo">
+				<pre class="codigoint2">
+
+					&lt;div class="row"&gt;
+						&lt;div class="media"&gt;
+							&lt;img class="mr-3" src="../img/I2_opt.png" alt="IconoPrueba"&gt;
+							&lt;div class="media-body&gt;
+								&lt;h5&gt;Prueba &lt;/h5&gt;
+								&lt;Contenido del texto&gt;
+								&lt;div class="media mt-3"&gt;
+									&lt;img src="../img/I2_opt.png" alt="IconoPrueba"&gt;
+									&lt;div class="media-body"&gt
+										&lt;h5 class="mt-0"&gt;Prueba &lt;/h5&gt;
+										&lt;Contenido del texto&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				</pre>	
+			</div>  
+		</div>
+	  	<div class="w-100 p-3"></div>
+	</div>
+
+
+   
+
+	
+    <footer class="piedepagina">
+		<a href="http://www.instagram.com"><img src="../img/I2_opt.png" alt="Instagram"></img></a>
+		<a href="http://www.facebook.com"><img src="../img/F2_opt.png" alt="Facebook"></img></a>
+		<a href="http://www.twitter.com"><img src="../img/T2_opt.png" alt="Twitter"></img></a>
+		<a href="https://creativecommons.org/licenses/?lang=es_ES"><img src="../img/creative_opt(1).png" alt="Derechos de autor"></img></a>
+		<img src="../img/AAA.gif" alt="Accesibilidad"></img>
+    </footer>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+</html>

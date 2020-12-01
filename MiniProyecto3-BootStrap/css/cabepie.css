@@ -1,0 +1,10 @@
+.cabecera-logo {
+  font-family: Playfair;
+  font-size: 2.25rem;
+}
+.piedepagina {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #a6d4da;
+}
